@@ -1,0 +1,16 @@
+<div class="block-car" [ngClass]="{ 
+    'green-background': !car.isSold,
+    'red-background': car.isSold
+}">
+    <h3 [ngStyle]="{ color: !car.isSold ? 'green' : 'red' }">{{car.name}}</h3>
+    <div class="buttons">
+        <button class="buy-car" [disabled]="car.isSold" 
+        (click)="buyReturn('buy')">
+            Купити
+        </button>
+        <button class="return-car" [disabled]="!car.isSold" 
+        (click)="buyReturn('return')">
+            Повернути
+        </button>
+    </div>
+</div>

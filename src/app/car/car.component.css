@@ -1,0 +1,41 @@
+.block-car {
+    width: 400px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.green-background {
+    background-color: rgb(144, 223, 144);
+}
+
+.red-background {
+    background-color: rgb(249, 119, 119);
+}
+
+h3 {
+    margin: 0px 0px 30px;
+    color: green;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.buy-car {
+    background-color:rgb(3, 83, 189);
+    color: white;
+}
+
+.buttons button {
+    height: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.buttons button.buy-car[disabled] {
+    opacity: 0.5;
+}

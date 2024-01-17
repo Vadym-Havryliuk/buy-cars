@@ -1,0 +1,17 @@
+input, button {
+    display: block;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 400px;
+}
+
+button {
+    width: 100px;
+    border-radius: 5px;
+    background-color:rgb(3, 83, 189);
+    color: white;
+    font-weight: 600;
+}
